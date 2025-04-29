@@ -1,7 +1,9 @@
+// Rewrite it to it's equivalent in ECMAScript notation (and rename it to esm.mjs)
+
 const path = require('path');
 const { release, version } = require('os');
 const { createServer: createServerHttp } = require('http');
-require('./files/c');
+require('./files/c.cjs');
 
 const random = Math.random();
 
